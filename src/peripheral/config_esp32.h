@@ -25,9 +25,11 @@
 #define LDR_TRHD 500
 #define GEO_FEN 50
 
-#define SLEEP_GPS_ENABLE
+// #define SLEEP_GPS_ENABLE
 // #define SLEEP_SIM_ENABLE
-#define SLEEP_ESP32_ENABLE
+// #define SLEEP_ESP32_ENABLE
 
+//interval config
+#define SENDING_INTERVAL 300000
 
 #endif // ESP32
