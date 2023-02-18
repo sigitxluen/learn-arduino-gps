@@ -21,7 +21,7 @@ void msg_handler::entrypoint () {
 
         unsigned long currentMillis = millis ();
 
-        if (currentMillis - previousMillis > SENDING_INTERVAL) {
+        if (currentMillis - previousMillis > interval) {
             // save the last time you blinked the LED
             previousMillis = currentMillis;
 

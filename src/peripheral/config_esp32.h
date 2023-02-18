@@ -30,6 +30,6 @@
 // #define SLEEP_ESP32_ENABLE
 
 //interval config
-#define SENDING_INTERVAL 300000
+#define SENDING_INTERVAL 60000
 
 #endif // ESP32
